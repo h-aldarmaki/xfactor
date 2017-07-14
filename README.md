@@ -27,7 +27,7 @@ If you use this code, please cite the following papers:
 
 Before using this code, it is recommended to tokenize and stem the data. Make sure test sentences are processed the same way as training sentences.
 
-The input files must contain one sentence per line. Digits will be normalized and all characters lower-cased. 
+The input files must contain one sentence per line. Digits will be normalized and all characters lower-cased within the training scripts below. 
 
 ## Training
 
