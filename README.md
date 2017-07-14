@@ -33,7 +33,7 @@ The input files must contain one sentence per line. Digits will be normalized an
 
 To train a pivot model, use the *train.pl* script in the *bin* directory
 
-````
+```
 perl model_dir  train_file  K  lambda  wm  alpha  n_itrs
 ```
 where *K* is the vector size, *lambda* is the regularization parameters, *wm* the missing words weight, and *alpha* used for orthogonal projection (set to 0 to disable). 
