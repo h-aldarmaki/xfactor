@@ -68,7 +68,7 @@ print $output;
 
 #run matlab
 
-$cmd = "nice matlab -r \"path(path,'$home_dir/ormf'); train_xWMF('$model1_dir/train.ind', '$model2_dir/train.ind', '$model1_dir/model', '$model2_dir/model', $k, $lambda, $wm, $alpha);exit\"";
+$cmd = "nice matlab -r \"path(path,'$home_dir/ormf'); train_xmf('$model1_dir/train.ind', '$model2_dir/train.ind', '$model1_dir/model', '$model2_dir/model', $k, $lambda, $wm, $alpha);exit\"";
 
 print "[step 3]: $cmd\n\n";
 print `$cmd`;
